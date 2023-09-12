@@ -1,0 +1,28 @@
+default xkb_geometry "n52" {
+
+    description= "n52 Game Controler";
+    width= 470;
+    height= 180;
+
+    shape.cornerRadius= 1;
+    shape "NORM" { { [ 18,18] }, { [2,1], [ 16,16] } };
+
+    section "LeftFunction" {
+        left= 15;
+        top=  11;
+        key.shape= "NORM";
+        key.gap= 3;
+        row {
+            left= 1;
+            top= 1;
+            keys {
+                <ESC>,  <FK01>, <FK02>, <FK03>, <FK04>,
+            <FK05>, <FK06>, <FK07>, <FK08>
+            };
+        };
+        }; // End of "LeftFunction" section
+
+    
+
+}; // End of "default" geometry
+

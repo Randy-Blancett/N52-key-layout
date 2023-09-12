@@ -1,0 +1,16 @@
+//
+//  Rules for resolving XKB components for use with n52
+//  Copyright 2023 by Randy Blancett
+//
+
+! model 	=	keycodes	geometry
+  n52		=	belkin(n52)	belkin(n52)
+
+! model		layout		=	symbols
+  n52		us	=	belkin(n52)
+
+! model		layout	=	compat		types
+  *		*	=	complete	complete
+
+! option		=	symbols
+  lv3:switch		=	+level3(switch)

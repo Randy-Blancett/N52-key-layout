@@ -1,0 +1,12 @@
+! model
+  n52               Belkin nostromo SpeedPad n52  
+
+! layout
+  us                English (US)
+  
+! variant
+  base              Initial Configuration  
+
+! option
+  lv3               Key to choose the 3rd level
+  lv3:switch        Right Ctrl
